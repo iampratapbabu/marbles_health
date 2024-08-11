@@ -4,11 +4,9 @@ const morgan = require('morgan');
 
 
 
-
 //ROUTER FILES
-const userRouter = require("./routes/user.route");
-const tenderRouter = require("./routes/tender.route");
-const bidRouter = require("./routes/bid.route");
+const notesRouter = require("./routes/note.route");
+
 
 
 //MIDDLEWARES
@@ -33,15 +31,12 @@ app.use((req,res,next) =>{
 
 //HOME ROUTE
 app.get('/',(req,res)=>{
-  res.send("VI Exports Server STATUS:[UP]");
+  res.send("Marbles Health Server STATUS:[UP]");
 });
 
 
 //ROUTING
-app.use('/api/v1/users',userRouter);
-app.use('/api/v1/tenders',tenderRouter);
-app.use('/api/v1/bids',bidRouter);
-
+app.use('/notes',notesRouter);
 
 
 
