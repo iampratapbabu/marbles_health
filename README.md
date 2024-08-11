@@ -97,10 +97,5 @@ To use the application, you can interact with the API using tools like [Postman]
   - **Endpoint:** `notes/:id`
 
 ## Contributer
-Tej Pratap
-Email - tejpratap.5463@gmail.com
-
-
----
-
-Feel free to customize this template to fit the specific details of your project!
+--Tej Pratap
+--Email - tejpratap.5463@gmail.com
